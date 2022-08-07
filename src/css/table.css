@@ -1,0 +1,21 @@
+tr {
+    background-color: white;
+    text-align: center;
+    border: 1px solid black;
+}
+table {
+    width: 500px;
+    margin: 100px auto;
+    border: 1px solid black;
+}
+button{
+    margin-left: 10px;
+}
+.add{
+    text-align: center;
+    margin-top: 10px;
+}
+.ii{
+    width: 100px;
+    margin-right: 3px;
+}

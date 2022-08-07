@@ -1,0 +1,9 @@
+客户端环境
+路由安装
+npm i react-router-dom --save
+状态管理工具
+npm i react-redux redux redux-thunk --save
+ui框架
+npm i antd -S
+服务端环境
+npm i express -S

@@ -1,0 +1,30 @@
+.box{
+    width: 100vw;
+    height: 100vh;
+    background-color: #efefef;
+    position: relative;
+}
+.box_form{
+    position: absolute;
+    width: 450px;
+    height: 300px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    border-radius: 5px;
+}
+.title{
+    text-align: center;
+}
+.btn{
+    margin-left: 180px;
+    margin-right: 10px;
+}
+.bb{
+    margin-top: 100px;
+}
+.bbb{
+    margin-top: 70px;
+}
+

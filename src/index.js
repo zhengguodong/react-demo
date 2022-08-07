@@ -1,17 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './router';
 import reportWebVitals from './reportWebVitals';
-
+import {Provider} from "react-redux"
+import store from "./store"
+//引入样式
+import 'antd/dist/antd.min.css';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+//将全局状态挂载
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+    <Provider store={store}>
+        <App />
+    </Provider>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
